@@ -1,5 +1,5 @@
 
-name: DevSkim
+name: BinSkim
 
 on:
   push:
