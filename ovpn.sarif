@@ -3,6 +3,11 @@
   "version": "2.1.0",
   "runs": [
     {
+      "originalUriBaseIds": {
+        "ROOTPATH": {
+          "uri": "file:///C:/i/openvpn-pipeline-artifacts/"
+        }
+      },
       "results": [
         {
           "ruleId": "BA2008",
@@ -18,7 +23,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/arm64/libcrypto-1_1-arm64.dll"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "arm64/libcrypto-1_1-arm64.dll"
                 }
               }
             }
@@ -38,7 +44,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/arm64/libopenvpnmsica.dll"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "arm64/libopenvpnmsica.dll"
                 }
               }
             }
@@ -59,7 +66,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/arm64/libopenvpnmsica.dll"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "arm64/libopenvpnmsica.dll"
                 }
               }
             }
@@ -78,7 +86,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/arm64/libopenvpnmsica.dll"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "arm64/libopenvpnmsica.dll"
                 }
               }
             }
@@ -97,7 +106,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/arm64/libopenvpnmsica.dll"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "arm64/libopenvpnmsica.dll"
                 }
               }
             }
@@ -117,7 +127,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/arm64/libpkcs11-helper-1.dll"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "arm64/libpkcs11-helper-1.dll"
                 }
               }
             }
@@ -137,7 +148,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/arm64/libssl-1_1-arm64.dll"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "arm64/libssl-1_1-arm64.dll"
                 }
               }
             }
@@ -157,7 +169,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/arm64/lzo2.dll"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "arm64/lzo2.dll"
                 }
               }
             }
@@ -177,7 +190,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/arm64/openvpn.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "arm64/openvpn.exe"
                 }
               }
             }
@@ -198,7 +212,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/arm64/openvpn.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "arm64/openvpn.exe"
                 }
               }
             }
@@ -221,7 +236,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/arm64/openvpn.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "arm64/openvpn.exe"
                 }
               }
             }
@@ -241,7 +257,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/arm64/openvpn.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "arm64/openvpn.exe"
                 }
               }
             }
@@ -260,7 +277,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/arm64/openvpn.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "arm64/openvpn.exe"
                 }
               }
             }
@@ -279,7 +297,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/arm64/openvpn.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "arm64/openvpn.exe"
                 }
               }
             }
@@ -299,7 +318,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/arm64/openvpnserv.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "arm64/openvpnserv.exe"
                 }
               }
             }
@@ -320,7 +340,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/arm64/openvpnserv.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "arm64/openvpnserv.exe"
                 }
               }
             }
@@ -339,7 +360,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/arm64/openvpnserv.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "arm64/openvpnserv.exe"
                 }
               }
             }
@@ -358,7 +380,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/arm64/openvpnserv.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "arm64/openvpnserv.exe"
                 }
               }
             }
@@ -378,7 +401,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/arm64/tapctl.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "arm64/tapctl.exe"
                 }
               }
             }
@@ -399,7 +423,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/arm64/tapctl.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "arm64/tapctl.exe"
                 }
               }
             }
@@ -418,7 +443,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/arm64/tapctl.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "arm64/tapctl.exe"
                 }
               }
             }
@@ -437,7 +463,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/arm64/tapctl.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "arm64/tapctl.exe"
                 }
               }
             }
@@ -457,7 +484,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/win32/libcrypto-1_1.dll"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "win32/libcrypto-1_1.dll"
                 }
               }
             }
@@ -477,7 +505,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/win32/libopenvpnmsica.dll"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "win32/libopenvpnmsica.dll"
                 }
               }
             }
@@ -498,7 +527,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/win32/libopenvpnmsica.dll"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "win32/libopenvpnmsica.dll"
                 }
               }
             }
@@ -517,7 +547,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/win32/libopenvpnmsica.dll"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "win32/libopenvpnmsica.dll"
                 }
               }
             }
@@ -537,7 +568,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/win32/libpkcs11-helper-1.dll"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "win32/libpkcs11-helper-1.dll"
                 }
               }
             }
@@ -557,7 +589,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/win32/libssl-1_1.dll"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "win32/libssl-1_1.dll"
                 }
               }
             }
@@ -577,7 +610,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/win32/lzo2.dll"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "win32/lzo2.dll"
                 }
               }
             }
@@ -597,7 +631,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/win32/openvpn.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "win32/openvpn.exe"
                 }
               }
             }
@@ -618,7 +653,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/win32/openvpn.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "win32/openvpn.exe"
                 }
               }
             }
@@ -641,7 +677,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/win32/openvpn.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "win32/openvpn.exe"
                 }
               }
             }
@@ -661,7 +698,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/win32/openvpn.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "win32/openvpn.exe"
                 }
               }
             }
@@ -680,7 +718,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/win32/openvpn.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "win32/openvpn.exe"
                 }
               }
             }
@@ -700,7 +739,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/win32/openvpnserv.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "win32/openvpnserv.exe"
                 }
               }
             }
@@ -721,7 +761,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/win32/openvpnserv.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "win32/openvpnserv.exe"
                 }
               }
             }
@@ -740,7 +781,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/win32/openvpnserv.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "win32/openvpnserv.exe"
                 }
               }
             }
@@ -760,7 +802,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/win32/tapctl.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "win32/tapctl.exe"
                 }
               }
             }
@@ -781,7 +824,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/win32/tapctl.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "win32/tapctl.exe"
                 }
               }
             }
@@ -800,7 +844,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/win32/tapctl.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "win32/tapctl.exe"
                 }
               }
             }
@@ -820,7 +865,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/x64/libcrypto-1_1-x64.dll"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "x64/libcrypto-1_1-x64.dll"
                 }
               }
             }
@@ -840,7 +886,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/x64/libopenvpnmsica.dll"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "x64/libopenvpnmsica.dll"
                 }
               }
             }
@@ -861,7 +908,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/x64/libopenvpnmsica.dll"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "x64/libopenvpnmsica.dll"
                 }
               }
             }
@@ -880,7 +928,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/x64/libopenvpnmsica.dll"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "x64/libopenvpnmsica.dll"
                 }
               }
             }
@@ -900,7 +949,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/x64/libpkcs11-helper-1.dll"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "x64/libpkcs11-helper-1.dll"
                 }
               }
             }
@@ -920,7 +970,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/x64/libssl-1_1-x64.dll"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "x64/libssl-1_1-x64.dll"
                 }
               }
             }
@@ -940,7 +991,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/x64/lzo2.dll"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "x64/lzo2.dll"
                 }
               }
             }
@@ -960,7 +1012,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/x64/openvpn.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "x64/openvpn.exe"
                 }
               }
             }
@@ -981,7 +1034,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/x64/openvpn.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "x64/openvpn.exe"
                 }
               }
             }
@@ -1004,7 +1058,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/x64/openvpn.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "x64/openvpn.exe"
                 }
               }
             }
@@ -1024,7 +1079,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/x64/openvpn.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "x64/openvpn.exe"
                 }
               }
             }
@@ -1043,7 +1099,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/x64/openvpn.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "x64/openvpn.exe"
                 }
               }
             }
@@ -1063,7 +1120,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/x64/openvpnserv.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "x64/openvpnserv.exe"
                 }
               }
             }
@@ -1084,7 +1142,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/x64/openvpnserv.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "x64/openvpnserv.exe"
                 }
               }
             }
@@ -1103,7 +1162,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/x64/openvpnserv.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "x64/openvpnserv.exe"
                 }
               }
             }
@@ -1123,7 +1183,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/x64/tapctl.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "x64/tapctl.exe"
                 }
               }
             }
@@ -1144,7 +1205,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/x64/tapctl.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "x64/tapctl.exe"
                 }
               }
             }
@@ -1163,7 +1225,8 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/i/openvpn-pipeline-artifacts/x64/tapctl.exe"
+                  "uriBaseId": "ROOTPATH",
+                  "uri": "x64/tapctl.exe"
                 }
               }
             }
@@ -1357,7 +1420,7 @@
                 {
                   "physicalLocation": {
                     "artifactLocation": {
-                      "uri": "file:///C:/i/openvpn-pipeline-artifacts/arm64/libcrypto-1_1-arm64.dll"
+                      "uri": "arm64/libcrypto-1_1-arm64.dll"
                     }
                   }
                 }
@@ -1375,7 +1438,7 @@
                 {
                   "physicalLocation": {
                     "artifactLocation": {
-                      "uri": "file:///C:/i/openvpn-pipeline-artifacts/arm64/libpkcs11-helper-1.dll"
+                      "uri": "arm64/libpkcs11-helper-1.dll"
                     }
                   }
                 }
@@ -1393,7 +1456,7 @@
                 {
                   "physicalLocation": {
                     "artifactLocation": {
-                      "uri": "file:///C:/i/openvpn-pipeline-artifacts/arm64/libssl-1_1-arm64.dll"
+                      "uri": "arm64/libssl-1_1-arm64.dll"
                     }
                   }
                 }
@@ -1411,7 +1474,7 @@
                 {
                   "physicalLocation": {
                     "artifactLocation": {
-                      "uri": "file:///C:/i/openvpn-pipeline-artifacts/arm64/lzo2.dll"
+                      "uri": "arm64/lzo2.dll"
                     }
                   }
                 }
@@ -1429,7 +1492,7 @@
                 {
                   "physicalLocation": {
                     "artifactLocation": {
-                      "uri": "file:///C:/i/openvpn-pipeline-artifacts/win32/libcrypto-1_1.dll"
+                      "uri": "win32/libcrypto-1_1.dll"
                     }
                   }
                 }
@@ -1447,7 +1510,7 @@
                 {
                   "physicalLocation": {
                     "artifactLocation": {
-                      "uri": "file:///C:/i/openvpn-pipeline-artifacts/win32/libpkcs11-helper-1.dll"
+                      "uri": "win32/libpkcs11-helper-1.dll"
                     }
                   }
                 }
@@ -1465,7 +1528,7 @@
                 {
                   "physicalLocation": {
                     "artifactLocation": {
-                      "uri": "file:///C:/i/openvpn-pipeline-artifacts/win32/libssl-1_1.dll"
+                      "uri": "win32/libssl-1_1.dll"
                     }
                   }
                 }
@@ -1483,7 +1546,7 @@
                 {
                   "physicalLocation": {
                     "artifactLocation": {
-                      "uri": "file:///C:/i/openvpn-pipeline-artifacts/win32/lzo2.dll"
+                      "uri": "win32/lzo2.dll"
                     }
                   }
                 }
@@ -1501,7 +1564,7 @@
                 {
                   "physicalLocation": {
                     "artifactLocation": {
-                      "uri": "file:///C:/i/openvpn-pipeline-artifacts/x64/libcrypto-1_1-x64.dll"
+                      "uri": "x64/libcrypto-1_1-x64.dll"
                     }
                   }
                 }
@@ -1519,7 +1582,7 @@
                 {
                   "physicalLocation": {
                     "artifactLocation": {
-                      "uri": "file:///C:/i/openvpn-pipeline-artifacts/x64/libpkcs11-helper-1.dll"
+                      "uri": "x64/libpkcs11-helper-1.dll"
                     }
                   }
                 }
@@ -1537,7 +1600,7 @@
                 {
                   "physicalLocation": {
                     "artifactLocation": {
-                      "uri": "file:///C:/i/openvpn-pipeline-artifacts/x64/libssl-1_1-x64.dll"
+                      "uri": "x64/libssl-1_1-x64.dll"
                     }
                   }
                 }
@@ -1555,7 +1618,7 @@
                 {
                   "physicalLocation": {
                     "artifactLocation": {
-                      "uri": "file:///C:/i/openvpn-pipeline-artifacts/x64/lzo2.dll"
+                      "uri": "x64/lzo2.dll"
                     }
                   }
                 }
