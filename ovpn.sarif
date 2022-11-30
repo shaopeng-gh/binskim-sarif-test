@@ -14,7 +14,7 @@
           "ruleIndex": 0,
           "level": "error",
           "message": {
-            "id": "Error",
+            "id": "Error", "text": "sample message text 1",
             "arguments": [
               "gcc.requiredsymbol.4.o",
               "4"
@@ -36,7 +36,7 @@
           "ruleIndex": 1,
           "level": "error",
           "message": {
-            "id": "Error",
+            "id": "Error", "text": "sample message text 2",
             "arguments": [
               "clang.14.elf.c.no_safe_stack",
               "clang.14.elf.c.no_safe_stack"
@@ -58,7 +58,7 @@
           "ruleIndex": 2,
           "level": "error",
           "message": {
-            "id": "Error",
+            "id": "Error", "text": "sample message text 3",
             "arguments": [
               "clang.14.elf.c.no_safe_stack"
             ]
@@ -79,7 +79,7 @@
           "ruleIndex": 3,
           "level": "error",
           "message": {
-            "id": "Error",
+            "id": "Error", "text": "sample message text 4",
             "arguments": [
               "clang.14.elf.c.no_safe_stack"
             ]
