@@ -29,9 +29,9 @@ jobs:
           name: result.sarif
           path: result.sarif
       - name: Get Sarif Multitool package from nuget
-        run: nuget install Sarif.Multitool -Version 3.1.0 -OutputDirectory ${{ github.workspace }}
+        run: dotnet tool install --global Sarif.Multitool --version 3.1.0
       - name: Run Sarif Multitool
-        run: ${{ github.workspace }}\sarif.multitool.3.1.0\tools\netcoreapp3.1\any\Sarif.Multitool.exe rebaseuri result.sarif --base-path-value ${{ github.workspace }} --base-path-token REPO -o result_fixed.sarif
+        run: sarif rebaseuri result.sarif --base-path-value ${{ github.workspace }} --base-path-token REPO -o result_fixed.sarif
       - name: upload 2
         uses: actions/upload-artifact@v3
         with:
