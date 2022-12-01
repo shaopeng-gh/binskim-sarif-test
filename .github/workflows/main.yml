@@ -22,7 +22,7 @@ jobs:
       - name: Get BinSkim package from nuget
         run: nuget install Microsoft.CodeAnalysis.BinSkim -Version 1.9.5 -OutputDirectory ${{ github.workspace }}
       - name: Run BinSkim analysis
-        run: ${{ github.workspace }}\Microsoft.CodeAnalysis.BinSkim.1.9.5\tools\netcoreapp3.1\win-x64\BinSkim.exe analyze *.exe *.dll --recurse -o result.sarif --force --ignorePdbLoadError
+        run: ${{ github.workspace }}\Microsoft.CodeAnalysis.BinSkim.1.9.5\tools\netcoreapp3.1\win-x64\BinSkim.exe analyze SubDir1\ --recurse -o result.sarif --force --ignorePdbLoadError
       - name: upload
         uses: actions/upload-artifact@v3
         with:
