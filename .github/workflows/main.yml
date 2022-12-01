@@ -14,34 +14,34 @@ jobs:
       contents: read
       security-events: write
     steps:
-      # This step checks out a copy of your repository.
       - name: Checkout repository
         uses: actions/checkout@v3
+
       - name: Setup NuGet.exe for use with actions
         uses: NuGet/setup-nuget@v1.0.6
+
       - name: Get BinSkim package from nuget
         run: nuget install Microsoft.CodeAnalysis.BinSkim -Version 1.9.5 -OutputDirectory ${{ github.workspace }}
+
       - name: Run BinSkim analysis
         run: ${{ github.workspace }}\Microsoft.CodeAnalysis.BinSkim.1.9.5\tools\netcoreapp3.1\win-x64\BinSkim.exe analyze SubDir1\ --recurse -o result.sarif --force --ignorePdbLoadError
+
       - name: upload
         uses: actions/upload-artifact@v3
         with:
           name: result.sarif
           path: result.sarif
+
       - name: SARIF Multitool
         uses: microsoft/sarif-actions@v0.1
         with:
-          # Command to be sent to SARIF Multitool
-          command: 'rebaseuri result.sarif --base-path-value ${{ github.workspace }} --base-path-token REPO -o result_fixed.sarif'
-      #- name: Get Sarif Multitool package from nuget
-      #  run: dotnet tool install --global Sarif.Multitool --version 3.1.0
-      #- name: Run Sarif Multitool
-      #  run: sarif rebaseuri result.sarif --base-path-value ${{ github.workspace }} --base-path-token REPO -o result_fixed.sarif
+          command: 'rebaseuri result.sarif --base-path-value ${{ github.workspace }} --base-path-token REPO -o result_rebased.sarif'
+
       - name: upload 2
         uses: actions/upload-artifact@v3
         with:
-          name: result_fixed.sarif
-          path: result_fixed.sarif
+          name: result_rebased.sarif
+          path: result_rebased.sarif
 
       #- name: Upload SARIF file
       #  uses: github/codeql-action/upload-sarif@v2
