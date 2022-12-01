@@ -21,13 +21,28 @@ jobs:
         uses: NuGet/setup-nuget@v1.0.6
       - name: Get BinSkim package from nuget
         run: nuget install Microsoft.CodeAnalysis.BinSkim -Version 1.9.5 -OutputDirectory ${{ github.workspace }}
-      - name: Install and Run BinSkim analysis
+      - name: Run BinSkim analysis
         run: ${{ github.workspace }}\Microsoft.CodeAnalysis.BinSkim.1.9.5\tools\netcoreapp3.1\win-x64\BinSkim.exe analyze *.exe *.dll --recurse -o result.sarif --force --ignorePdbLoadError
-      - name: Upload SARIF file
-        uses: github/codeql-action/upload-sarif@v2
+      - name: upload
+        uses: actions/upload-artifact@v3
         with:
-          # Path to SARIF file relative to the root of the repository
-          sarif_file: result.sarif
-          # Optional category for the results
-          # Used to differentiate multiple results for one commit
-          category: binskim result
+          name: result.sarif
+          path: result.sarif
+      - name: Get Sarif Multitool package from nuget
+        run: nuget install Sarif.Multitool -Version 3.1.0 -OutputDirectory ${{ github.workspace }}
+      - name: Run Sarif Multitool
+        run: ${{ github.workspace }}\sarif.multitool.3.1.0\tools\netcoreapp3.1\any\Sarif.Multitool.exe rebaseuri result.sarif --base-path-value ${{ github.workspace }} --base-path-token REPO -o result_fixed.sarif
+      - name: upload 2
+        uses: actions/upload-artifact@v3
+        with:
+          name: result_fixed.sarif
+          path: result_fixed.sarif
+
+      #- name: Upload SARIF file
+      #  uses: github/codeql-action/upload-sarif@v2
+      #  with:
+      #    # Path to SARIF file relative to the root of the repository
+      #    sarif_file: result.sarif
+      #    # Optional category for the results
+      #    # Used to differentiate multiple results for one commit
+      #    category: binskim result
