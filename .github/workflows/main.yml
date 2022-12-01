@@ -32,10 +32,10 @@ jobs:
           name: result.sarif
           path: result.sarif
 
-      - name: SARIF Multitool
-        uses: microsoft/sarif-actions@v0.1
-        with:
-          command: 'rebaseuri result.sarif --base-path-value ${{ github.workspace }} --base-path-token REPO -o result_rebased.sarif'
+      - name: Get Sarif Multitool package from nuget
+        run: dotnet tool install --global Sarif.Multitool --version 3.1.0
+      - name: Run Sarif Multitool
+        run: sarif rebaseuri result.sarif --base-path-value ${{ github.workspace }} --base-path-token REPO -o result_rebased.sarif
 
       - name: upload 2
         uses: actions/upload-artifact@v3
